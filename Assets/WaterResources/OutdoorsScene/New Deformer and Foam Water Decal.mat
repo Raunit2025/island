@@ -14,7 +14,7 @@ Material:
   m_ValidKeywords:
   - _AFFECTS_DEFORMATION
   - _AFFECTS_FOAM
-  - _TYPE_SHORE_WAVE
+  - _TYPE_SPHERE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,7 +55,7 @@ Material:
     - _Remap_Max: 1
     - _Remap_Min: 0
     - _Skipped_Waves: 4
-    - _TYPE: 3
+    - _TYPE: 0
     - _Wave_Length: 0.175
     - _Wave_Offset: 0
     - _Wave_Speed: 0.3
