@@ -299,13 +299,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157207112}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20816772, y: 0, z: 0, w: 0.97809315}
+  m_LocalRotation: {x: 0.5299192, y: 0, z: 0, w: 0.8480481}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 24.03, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 64, y: 0, z: 0}
 --- !u!114 &157207115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1383,10 +1383,10 @@ MonoBehaviour:
   meshRenderers: []
   timeMultiplier: 1.24
   scriptInteractions: 1
-  cpuEvaluateRipples: 0
+  cpuEvaluateRipples: 1
   customMaterial: {fileID: 0}
-  startSmoothness: 0.98039216
-  endSmoothness: 0.92156863
+  startSmoothness: 1
+  endSmoothness: 0.94117653
   smoothnessFadeStart: 99
   smoothnessFadeDistance: 500
   tessellation: 1
@@ -1408,8 +1408,8 @@ MonoBehaviour:
   causticsPlaneBlendDistance: 1
   causticsResolution: 256
   causticsBand: 2
-  virtualPlaneDistance: 4.07
-  causticsTilingFactor: 1.48
+  virtualPlaneDistance: 5.81
+  causticsTilingFactor: 1.43
   causticsDirectionalShadow: 0
   causticsDirectionalShadowDimmer: 0.25
   renderingLayerMask: 1
@@ -1423,14 +1423,14 @@ MonoBehaviour:
   volumeDepth: 50
   volumeHeight: 0
   volumePrority: 0
-  absorptionDistanceMultiplier: 3.29
+  absorptionDistanceMultiplier: 1.32
   underWaterAmbientProbeContribution: 1
   underWaterScatteringColorMode: 0
   underWaterScatteringColor: {r: 0, g: 0.27, b: 0.23, a: 1}
-  underWaterRefraction: 0
+  underWaterRefraction: 1
   decalRegionSize: {x: 200, y: 200}
   decalRegionAnchor: {fileID: 553306792}
-  supportLargeCurrent: 0
+  supportLargeCurrent: 1
   largeCurrentRes: 512
   largeCurrentSpeedValue: 0
   largeCurrentMap: {fileID: 0}
@@ -1447,14 +1447,14 @@ MonoBehaviour:
   deformation: 1
   deformationRes: 512
   foam: 1
-  foamResolution: 512
+  foamResolution: 256
   foamPersistenceMultiplier: 0.067
   foamCurrentInfluence: 1
   foamColor: {r: 1, g: 1, b: 1, a: 1}
   foamTextureTiling: 0.1
   foamSmoothness: 1
   simulationFoamAmount: 1
-  supportSimulationFoamMask: 0
+  supportSimulationFoamMask: 1
   simulationFoamMask: {fileID: 0}
   simulationFoamMaskExtent: {x: 100, y: 100}
   simulationFoamMaskOffset: {x: 0, y: 0}
@@ -1483,7 +1483,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   repetitionSize: 500
-  largeOrientationValue: 90.1
+  largeOrientationValue: 90
   largeWindSpeed: 30
   largeChaos: 0.152
   largeBand0Multiplier: 0.682
