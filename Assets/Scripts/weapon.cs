@@ -5,6 +5,7 @@ using UnityEngine;
 public class weapon : MonoBehaviour
 {
     public Camera playerCamera;
+    public int weaponDamage;
 
     //Shooting
     public bool isShooting, readyToShoot;
@@ -75,6 +76,9 @@ public class weapon : MonoBehaviour
         Vector3 shootingDirection = CalculateDirectionAndSpread().normalized;
 
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
+
+        Bullet bul = bullet.GetComponent<Bullet>();
+        bul.bulletDamage = weaponDamage;
 
         bullet.transform.forward = shootingDirection;
 
